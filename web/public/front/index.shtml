@@ -1,0 +1,446 @@
+<!--#include file="/include/head.shtml"-->
+<!-- <div class="floatBox">
+  <div class="ui container">
+    <img src="image/float_img.png">
+    <a class="ui button buyRight" href="#">立即认购</a>
+    <i class="remove icon close"></i>
+  </div>
+</div> -->
+<div class="pusher">
+  <div class="slider" style="height:420px;">
+    <div class="ui container fastLogin">
+      <div class="fastLoginBox">
+        <h4>登录</h4>
+        <form class="ui form" method="post">
+          <div class="field">
+            <input type="tel" name="phone" id="phone" maxlength="11" placeholder="手机号" autocomplete="off">
+          </div>
+          <div class="field">
+              <input type="password" name="password" id="password" placeholder="登录密码" autocomplete="off">
+          </div>
+          <div class="field">
+            <div class="ui checkbox">
+                <input type="checkbox" tabindex="0" class="hidden" name="agreement" id="agreement">
+                <label>记住我的账号</label>
+            </div>
+            <a href="#" class="forget">忘记密码？</a>
+          </div>
+          <button class="ui button formBtn button" type="submit">登录</button>
+          <p class="go_login"><a href="#">还没账号？立即注册</a></p>
+        </form>
+      </div>
+    </div>
+   <ul class="slider-content">
+       <li class="slider-item active" >
+           <a class="a-img-bg" href="#" target="_blank"
+               style="background: url(image/banner.jpg) no-repeat center;
+                   /*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/banner2.jpg', sizingMethod='scale')\9;*/
+                   height: 420px"></a>
+       </li>
+       <li class="slider-item active" >
+           <a class="a-img-bg" href="#" target="_blank"
+               style="background: url(image/banner.jpg) no-repeat center;
+                   /*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/banner2.jpg', sizingMethod='scale')\9;*/
+                   height: 420px"></a>
+       </li>
+       <li class="slider-item" >
+           <a class="a-img-bg" href="#" target="_blank"
+               style="background: url(image/banner3.jpg) no-repeat center;
+                   /*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(image/banner3.jpg', sizingMethod='scale')\9;*/
+                   height: 420px">
+          </a>
+       </li>
+   </ul>
+   <ol class="slider-indicator">
+     <li></li>
+     <li></li>
+     <li></li>
+   </ol>
+   <!-- <a class="slider-left-control" href="javascript:void(0)"><i class="icon chevron left"></i></a>
+   <a class="slider-right-control" href="javascript:void(0)"><i class="icon chevron right"></i></a> -->
+</div>
+
+  <div class="notice aligned">
+    <div class="ui container">
+      <div class="ui list">
+        <div class="item">
+          <i class="volume up icon"></i>
+          <div class="content noticeRoll">
+            <ul>
+              <li><a href="#">徳艺公盘官方网站V1.0成立啦</a></li>
+              <li><a href="#">徳艺公盘官方网站V1.0成立啦</a></li>
+              <li><a href="#">徳艺公盘官方网站V1.0成立啦</a></li>
+            </ul>
+          </div>
+          <div class="noticeMore">
+            <a href="#">更多</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="indexMain">
+    <div class="ui container project">
+      <img class="ui centered medium image" src="./image/projectTitle1.png">
+      <div class="ui items">
+        <div class="item">
+          <div class="image">
+            <img src="./image/listPic.jpg">
+          </div>
+          <div class="content">
+            <a href="/subscriber/details.shtml" class="projectDetailBtn unfinished">认购中</a>
+            <a class="header showPopup">项目名称 项目名称 项目名称</a>
+            <div class="ui equal width stackable internally celled grid">
+              <div class="aligned row">
+                <div class="column">
+                  <p><img src="./image/project_icon2.png" class="projectIcon">收益权：1元／份</p>
+                  <p><img src="./image/project_icon4.png" class="projectIcon">剩余认购份数／总份数：40000/100000</p>
+                </div>
+                <div class="column">
+                  <p><img src="./image/project_icon1.png" class="projectIcon">所属年代：50后</p>
+                  <p><img src="./image/project_icon3.png" class="projectIcon">经济机构：xxxxxxx有限公司</p>
+                </div>
+              </div>
+            </div>
+            <div class="progressCon">
+              <div class="ui progress" data-percent="50">
+                <div class="bar" style="transition-duration:300ms;width:50%;"></div>
+              </div>
+              <span>50%</span>
+            </div>
+            <div class="extra">
+              <div class="ui right floated">
+                <p>认购次数<br/>
+                  <span>20</span>
+                </p>
+              </div>
+              <div class="ui time">
+                <p>抢购剩余时间<br>
+                  <span>15天20分29秒</span>
+                </p>
+              </div>
+            </div>
+            <div>
+              <a href="#" class="ui button rgButton">立即认购</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="./image/listPic.jpg">
+          </div>
+          <div class="content">
+            <a href="/subscriber/details.shtml" class="projectDetailBtn finished">已认购</a>
+            <a class="header showPopup">项目名称 项目名称 项目名称</a>
+            <div class="ui equal width stackable internally celled grid">
+              <div class="aligned row">
+                <div class="column">
+                  <p><img src="./image/project_icon2.png" class="projectIcon">收益权：1元／份</p>
+                  <p><img src="./image/project_icon4.png" class="projectIcon">剩余认购份数／总份数：40000/100000</p>
+                </div>
+                <div class="column">
+                  <p><img src="./image/project_icon1.png" class="projectIcon">所属年代：50后</p>
+                  <p><img src="./image/project_icon3.png" class="projectIcon">经济机构：xxxxxxx有限公司</p>
+                </div>
+              </div>
+            </div>
+            <div class="progressCon">
+              <div class="ui progress" data-percent="50">
+                <div class="bar" style="transition-duration:300ms;width:50%;"></div>
+              </div>
+              <span>50%</span>
+            </div>
+            <div class="extra">
+              <div class="ui right floated">
+                <p>认购次数<br/>20</p>
+              </div>
+              <div class="ui time">
+                <p>抢购剩余时间<br>
+                  <span>15天20分29秒</span>
+                </p>
+              </div>
+            </div>
+            <div>
+              <a href="#" class="ui button rgButton">立即认购</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="./image/listPic.jpg">
+          </div>
+          <div class="content">
+            <a href="/subscriber/details.shtml" class="projectDetailBtn unfinished">认购中</a>
+            <a class="header showPopup">项目名称 项目名称 项目名称</a>
+            <div class="ui equal width stackable internally celled grid">
+              <div class="aligned row">
+                <div class="column">
+                  <p><img src="./image/project_icon2.png" class="projectIcon">收益权：1元／份</p>
+                  <p><img src="./image/project_icon4.png" class="projectIcon">剩余认购份数／总份数：40000/100000</p>
+                </div>
+                <div class="column">
+                  <p><img src="./image/project_icon1.png" class="projectIcon">所属年代：50后</p>
+                  <p><img src="./image/project_icon3.png" class="projectIcon">经济机构：xxxxxxx有限公司</p>
+                </div>
+              </div>
+            </div>
+            <div class="progressCon">
+              <div class="ui progress" data-percent="50">
+                <div class="bar" style="transition-duration:300ms;width:50%;"></div>
+              </div>
+              <span>50%</span>
+            </div>
+            <div class="extra">
+              <div class="ui right floated">
+                <p>认购次数<br/>20</p>
+              </div>
+              <div class="ui time">
+                <p>抢购剩余时间<br>
+                  <span>15天20分29秒</span>
+                </p>
+              </div>
+            </div>
+              <div>
+                <a href="#" class="ui button rgButton">立即认购</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="projectMore">
+        <a href="#" class="ui primary button">更 多 作 品</a>
+      </div>
+    </div>
+    <div class="ui container tradeCenter">
+      <img class="ui centered medium image" src="./image/projectTitle5.png">
+      <img class="ui fluid image" src="image/trade.jpg">
+    </div>
+    <div class="ui container">
+      <img class="ui centered medium image" src="./image/projectTitle2.png">
+      <div class="ui two stackable doubling cards">
+        <div class="ui card">
+          <img src="./image/introPic1.png">
+          <a href="../knowAbout.shtml" class='ui primary button introbtn'>认识艺公盘</a>
+        </div>
+        <div class="ui card">
+          <img src="./image/introPic2.png">
+          <a href="#" class='ui primary button introbtn'>艺术家介绍</a>
+        </div>
+      </div>
+    </div>
+    <div class="ui container news">
+      <img class="ui centered medium image" src="./image/projectTitle3.png">
+      <div class="ui three stackable doubling cards">
+        <div class="ui card">
+          <h3>媒体报道</h3>
+          <div class="image">
+            <img src="./image/news_pic1.png">
+          </div>
+          <div class="content">
+            <div class="ui middle aligned list">
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="#"><<查看更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ui card">
+          <h3>行业资讯</h3>
+          <div class="image">
+            <img src="./image/news_pic2.png">
+          </div>
+          <div class="content">
+            <div class="ui middle aligned list">
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="#"><<查看更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ui card">
+          <h3>公司动态</h3>
+          <div class="image">
+            <img src="./image/news_pic3.png">
+          </div>
+          <div class="content">
+            <div class="ui middle aligned list">
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <a class="item">
+                <div class="right floated content">2017-02-17</div>
+                <div class="content">文章内容摘要，文章内容摘要</div>
+              </a>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="#"><<查看更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui container">
+      <img class="ui centered medium image" src="./image/projectTitle6.png">
+      <div class="ui centered grid">
+        <div class="six wide tablet eight wide computer column">
+          <div class="ui middle aligned list">
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见</div>
+            </a>
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见啊啊啊啊啊啊啊啊啊</div>
+            </a>
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见啊啊啊啊啊啊啊啊啊</div>
+            </a>
+          </div>
+        </div>
+        <div class="six wide tablet eight wide computer column">
+          <div class="ui middle aligned list">
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见啊啊啊啊啊啊啊啊啊</div>
+            </a>
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见啊啊啊啊啊啊啊啊啊</div>
+            </a>
+            <a class="item">
+              <div class="right floated content">2017-02-17</div>
+              <div class="content">【国务院】中共中央 国务院关于稳步推进农村集体产权制度改革的意见啊啊啊啊啊啊啊啊啊</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui container partners">
+      <img class="ui centered medium image" src="./image/projectTitle7.png">
+      <div class="link1">
+        <a class="image" href="http://www.crnews.net/">
+          <img src="./image/link1.png">
+        </a>
+        <a href="http://www.xn121.com/" class="image">
+          <img src="./image/link5.png">
+        </a>
+        <a href="http://www.zgny.com.cn/" class="image">
+          <img src="./image/link8.png">
+        </a>
+        <a href="http://www.moa.gov.cn/" class="image">
+          <img src="./image/link10.png">
+        </a>
+        <a href="http://www.forestry.gov.cn/" class="image">
+          <img src="./image/link11.png">
+        </a>
+        <!-- <a href="http://www.nyzy.com/" class="image">
+          <img src="./image/link2.png">
+        </a>
+        <a href="http://net.1nongjing.com/" class="image">
+          <img src="./image/link3.png">
+        </a>
+        <a href="http://www.xinnong.net/" class="image">
+          <img src="./image/link4.png">
+        </a>
+
+        <a href="http://www.cuncunle.com/" class="image">
+          <img src="./image/link6.png">
+        </a> -->
+      </div>
+      <!-- <div class="link2">
+        <a href="http://www.tuliu.com/" class="image">
+          <img src="./image/link7.png">
+        </a>
+
+        <a href="http://www.xinfadi.com.cn/" class="image">
+          <img src="./image/link9.png">
+        </a>
+
+      </div>
+      <div class="link3">
+        <a href="http://www.sdpc.gov.cn/" class="image">
+          <img src="./image/link12.png">
+        </a>
+        <a href="http://www.mof.gov.cn/index.htm" class="image">
+          <img src="./image/link13.png">
+        </a>
+        <a href="http://www.mwr.gov.cn/" class="image">
+          <img src="./image/link14.png">
+        </a>
+        <a href="http://www.gov.cn/" class="image">
+          <img src="./image/link15.png">
+        </a>
+      </div> -->
+    </div>
+  </div>
+</div>
+<div class="tszy_toolbar right menu">
+  <a class="tszy_toolbar_tab" href="#" target="_blank">
+    <img class="iconImg" src="./image/fixed_icon2.png">
+    帮助中心
+  </a>
+  <a class="tszy_toolbar_tab" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDExMTk1M18zNjM4MDNfODAwMTExOTUzXzJf" target="_blank">
+    <img class="iconImg" src="./image/fixed_icon3.png">
+    在线客服
+  </a>
+  <a class="tszy_toolbar_tab toolbar_tab_top" href="javascript:;">
+    <img class="iconImg" src="./image/fixed_icon4.png">
+    返回顶部
+  </a>
+</div>
+<!-- <div class="ui popup clickItemHead">
+    <div class="header">
+        柚子树十年综合收益权
+    </div>
+    <div class="content">
+        <p>柚子树10年综合收益权指的是： </p>
+        <p>1、用户自购买综合收益权10年内，由蜜柚产品售卖以及深加工带来的收益。</p>
+        <p>2、用户购买综合收益权10年之内的流转收益：用户在农业资源数字化流转平台进行实时（T+0）交易获得的差价收益（买卖价格以当时交易价格为准）。</p>
+    </div>
+</div> -->
+<!--#include file="/include/foot.shtml"-->
+<script type="text/javascript">
+  $('.showPopup').popup();
+
+  $(".floatBox .close").click(function(){
+    $(".floatBox").css({"display":"none"});
+  })
+  $(".toolbar_tab_top").click(function(){
+    $("html,body").animate({scrollTop:0},500);
+  })
+</script>

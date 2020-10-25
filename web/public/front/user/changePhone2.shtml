@@ -1,0 +1,62 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="userChange">
+        <div class="ui stackable inverted equal height stackable grid">
+          <!--#include file="/include/leftTree.shtml"-->
+          <div class="thirteen wide column">
+            <div class="articleInfo">
+              <h4 class="ui header">更换手机号</h4>
+              <div class="changePhone">
+                <div class="ui ordered steps">
+                  <div class="active step">
+                    <h5 class="ui icon header">
+                      <img src="../image/changePhone1.png">
+                      <div class="content">当前手机号已验证完毕</div>
+                    </h5>
+                  </div>
+                  <div class="step">
+                    <h5 class="ui icon header">
+                      <img src="../image/changePhone2.png">
+                      <div class="content">绑定新手机号</div>
+                    </h5>
+                  </div>
+                </div>
+                <div class="changePhoneForm">
+                  <form class="ui form" id="changePhoneTwoForm">
+                    <div class="field">
+                      <input type="text" name="changePhoneTwoPhone" id="changePhoneTwoPhone" placeholder="新手机号">
+                    </div>
+                    <div class="field">
+                      <div class="fields">
+                        <div class="eight wide field">
+                          <input type="text" name="changePhoneTwoCaptcha" id="changePhoneTwoCaptcha" placeholder="图文验证码">
+                        </div>
+                        <div class="eight wide field">
+                          <img src="../image/changePhone_captcha.png">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="fields">
+                        <div class="eight wide field">
+                          <input type="text" name="changePhoneTwoCode" id="changePhoneTwoCode" placeholder="输入验证码">
+                        </div>
+                        <div class="eight wide field">
+                          <input type="button" id="getVerificationCode" class="ui button primary" value="获取验证码">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="ui button formBtn" type="submit">完成</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

@@ -1,0 +1,32 @@
+<!--#include file="/include/head.shtml"-->
+<div class="introduction pusher">
+  <div class="ui container">
+    <div class="ui breadcrumb">
+      <div class="active section">相关介绍</div>
+      <i class="right angle icon divider"></i>
+      <div class="active section">土楼生态蜜柚园周边环境与景色</div>
+    </div>
+    <div class="introductionCon">
+      <h2 class="ui header">认识唐盛庄园</h2>
+      <img class="ui fluid image" src="../image/introduct1.jpg">
+      <p>唐盛庄园（北京）资产管理有限公司（以下简称“公司”）是一家高科技电子商务平台企业。公司管理团队有丰富的互联网、农业及品牌推广经验。依托于母公司强大的资金及渠道资源，在水果生鲜等农产品领域，通过互联网及电子商务等手段在更大范围、更高效率上配置农产品的流通，从而推动农业产业转型升级，打造特色农产品品牌，实现农业产业创新驱动发展。唐盛庄园建立了高于行业标准的产品规范，让生鲜 “非标准化产品”变得标准化可衡量，从最初的源头开始确保品质优秀.公司在全国拥有多家合作农业生产基地，同时公司建立了严格的质量监控及用户服务体系，力求和合作伙伴一起共同为我国的农业产业化做出应有的贡</p>
+      <h2 class="ui header">为什么选择唐盛庄园？</h2>
+      <p>唐盛庄园农业资源流转平台通过互联网及电子商务等手段在更大范围、更高效率上配置农产品的流通，把农业资产用互联网+技术的形式给量化出来。从而推动农业产业转型升级，打造特色农产品品牌，实现农业产业创新驱动发展。</p>
+      <p>唐盛庄园现以土楼生态庄园“蜜柚园”园区内蜜柚树资产的“综合收益权”，作为农业资源数字化标的进行价值评估，用户可按份购买收益权。</p>
+      <p>所谓的“综合收益权”是指：</p>
+      <p>1、用户因购买而享有的，由蜜柚树流转及蜜柚产品售卖及深加工所带来的所有收益。</p>
+      <p>2、用户购买的“综合收益权”可以唐盛农业资源流转平台进行实时交易。</p>
+      <h2 class="ui header">唐盛的运营模式</h2>
+      <p>唐盛庄园以南靖生态庄园园区内蜜柚树“综合收益权”，作为农业资源数字化的标的进行评估划分，用户可按份购买收益权。</p>
+      <p>所谓的“综合收益权”是指：</p>
+      <p>1、用户因购买而享有的，由蜜柚树流转及蜜柚产品售卖及深加工所带来的所有收益。</p>
+      <p>2、用户购买的“综合收益权”可以实时（T+0）进行交易买卖，买卖价格以当时交易价格为准。</p>
+      <h2 class="ui header">认购交易流程</h2>
+      <img class="ui fluid image" src="../image/introduct2.png">
+      <div class="ui center aligned segment">
+        <a class="ui button" href="#">返回首页</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

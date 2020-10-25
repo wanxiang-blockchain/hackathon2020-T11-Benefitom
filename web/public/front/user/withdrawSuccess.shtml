@@ -1,0 +1,33 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="full height">
+        <!--#include file="/include/leftTree.shtml"-->
+        <div class="article">
+          <div class="articleInfo rechargeSuccess">
+            <div class="ui text container">
+              <h1 class="ui header">
+                <img class="ui image" src="../image/success.png">
+                <div class="content">提现成功</div>
+              </h1>
+              <div class="ts_order_intro">
+                <p>您提现的金额为：xxxx元</p>
+                <p>提现方式：快捷提现</p>
+                <span>温馨提示：<br/>(1)体现的金额预计在X个工作日之后到账，请您留意您的支付宝收益<br/>(2)也可以在个人中心 -> <a href="/user/moneyFlow.shtml">资金流水</a>查看</span>
+              </div>
+              <div class="ui middle aligned grid">
+                <div class="row">
+                  <div class="center aligned column">
+                    <a href="/user/index.shtml" class="ts_commonBtn">返回账户总览</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

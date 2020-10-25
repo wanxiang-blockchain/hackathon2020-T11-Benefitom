@@ -1,0 +1,69 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="userChange">
+        <div class="ui stackable inverted equal height stackable grid">
+          <!--#include file="/include/leftTree.shtml"-->
+          <div class="thirteen wide column article">
+            <div class="articleInfo">
+              <h4 class="ui header">我的资产</h4>
+              <form class="ui form stackable secondary flex-wrap menu" method="get" action="/assets.html">
+                <div class="item">
+                  <div class="ui input">
+                    <label style="line-height:38px;width:70px;">状态：</label>
+                    <select name="state">
+                      <<option value="">全部</option>
+                      <<option value="">冻结</option>
+                      <<option value="">正常</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="ui input">
+                    <input id="d4311" class="wdate" type="text" name="beginTime" value="" onFocus='WdatePicker({"maxDate": "2020-10-01", "dateFmt": "yyyy-MM-dd"})' placeholder="开始时间">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="ui input">
+                    <input id="#d4312" class="wdate" type="text" name="endTime" value="" onFocus='WdatePicker({"maxDate": "2020-10-01", "dateFmt": "yyyy-MM-dd"})' placeholder="结束时间">
+                  </div>
+                </div>
+                <div class="right menu">
+                  <div class="item">
+                    <input type="submit" value="查询" class="ui orange button">
+                  </div>
+                </div>
+              </form>
+              <table class="ui very basic celled table">
+                <tbody>
+                  <tr>
+                    <td class="center aligned">订单编号</td>
+                    <td class="center aligned">收益权</td>
+                    <td class="center aligned">价格</td>
+                    <td class="center aligned">份数</td>
+                    <td class="center aligned">状态</td>
+                    <td class="center aligned">解冻时间</td>
+                    <td class="center aligned">描述信息</td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">20170214</td>
+                    <td class="center aligned">【收益权名称】</td>
+                    <td class="center aligned">￥2000元</td>
+                    <td class="center aligned">2000</td>
+                    <td class="center aligned">正常</td>
+                    <td class="center aligned">2017-11-01 10:51:21</td>
+                    <td class="center aligned">文本标签</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

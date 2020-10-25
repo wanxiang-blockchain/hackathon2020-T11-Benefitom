@@ -1,0 +1,19 @@
+<div class="three wide column aboutLeft">
+  <div class="ui vertical inverted sticky menu">
+    <div class="item">
+      <div class="header">关于我们</div>
+      <div class="menu">
+        <a class="item active" href="/about/company.shtml">
+          公司介绍
+        </a>
+        <a class="item" href="/about/mediaReport.shtml">媒体报道</a>
+        <a class="item" href="/about/industryInformation.shtml">行业资讯</a>
+        <a class="item" href="/about/companyDynamic.shtml">公司动态</a>
+        <a class="item" href="/about/noticeList.shtml">官方公告</a>
+        <a class="item" href="/about/joinUs.shtml">招贤纳士</a>
+        <a class="item" href="/about/contactUs.shtml">联系我们</a>
+        <a class="item" href="/about/helpCenter.shtml">帮助中心</a>
+      </div>
+    </div>
+  </div>
+</div>

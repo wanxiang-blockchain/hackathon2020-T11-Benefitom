@@ -1,0 +1,14 @@
+<!--#include file="/include/head.shtml"-->
+<div class="container" style="background:#fff;text-align:center;padding:30px 0;">
+  <img src="../image/knowAboutPic.png" alt="">
+  <div class="content" style="text-align:left;padding:50px;">
+    <h4>艺术版权资产化</h4>
+    <p>德艺公盘依托国家版权管理机构，通过对艺术品投资标的“保真确权、信息公示、市场定价、增值运营、自由流通”，促进艺术品投资交易的规范化、资产化、金融化和普惠化，满足当代互联网经济业态的文化艺术版权资产增值及价值分享，艺术产业化发展的转型和升级。</p>
+    <h4>艺术品价值投资回归</h4>
+    <p>业界首创以艺术家的价值发现、市场运营、利益分享为核心，创新打造具有投资、交易、收藏、消费功能的艺术投资交易综合平台，同时具备采购竞价、在线批发、藏家艺库、双向流通及共享经济概念的诸多功能性服务。</p>
+    <h4>公盘平台创新服务功能</h4>
+    <p>标的艺术品具有自然增值属性;艺术资产授信，解决艺术品投资融资难题;交易标的双渠道流通，解决艺术品流通难问题;交易标的具有原作、版画、艺术品等值交互兑现功能</p>
+  </div>
+</div>
+
+<!--#include file="/include/foot.shtml"-->

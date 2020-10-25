@@ -1,0 +1,53 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="full height">
+        <!--#include file="/include/leftTree.shtml"-->
+        <div class="article withdraw">
+          <div class="userTop">
+            <div class="ui stackable inverted divided equal height stackable grid">
+              <div class="seven wide column">
+                <h3>4000.00元</h3>
+                <h4 class="ui header balance">
+                  <img class="ui image" src="../image/money_icon.png">
+                  <div class="content">可用余额</div>
+                </h4>
+              </div>
+              <div class="nine wide column">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                  <div class="seven wide column">
+                    <a href="/user/recharge.shtml" class="rechargeBtn">充值</a>
+                  </div>
+                  <div class="seven wide column">
+                    <a href="/user/withdraw.shtml" class="rechargeBtn active">提现</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="userMain">
+            <p>您当前的账户余额：2000.00元</p>
+            <form class="ui form" id="withdrawForm" action="/withdraw.html">
+              <div class="field">
+                <input name="withdrawAmount" id="withdrawAmount" type="text" placeholder="请输入您要体现的金额">
+              </div>
+              <div class="field">
+                <input name="withdrawId" id="withdrawId" type="text" placeholder="请输入您的支付宝账号">
+              </div>
+              <div class="field">
+                <p>为保证您的资金完全到达您的账户，请您务必填写您的支付宝账号</p>
+              </div>
+              <div class="field" style="margin-bottom:50px;">
+                <i class="selected radio icon"></i>
+                支付宝提现
+              </div>
+              <input type="submit" class="ui orange submit button right formBtn" value='确定'>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

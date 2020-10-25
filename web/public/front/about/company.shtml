@@ -1,0 +1,51 @@
+<!--#include file="/include/head.shtml"-->
+<div class="aboutContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="aboutChange">
+        <div class="ui stackable inverted equal height stackable grid">
+          <!--#include file="/include/aboutLeftTree.shtml"-->
+          <div class="thirteen wide column aboutInfo">
+            <div class="aboutCompany">
+              <h3 class="ui header">
+                <img class="ui image" src="../image/about/icon1.png">
+                <div class="content">
+                  我们的机构
+                </div>
+              </h3>
+              <p>国内首家由金融、艺术、传媒、互联网等多家机构跨界投资组建，倡导价值型投资理念的艺术品交易及增值服务平台；</p>
+              <h3 class="ui header">
+                <img class="ui image" src="../image/about/icon2.png">
+                <div class="content">
+                  我们的服务
+                </div>
+              </h3>
+              <p>寻找最有价值潜力的艺术家</p>
+              <p>提供回报最大化的投资标的</p>
+              <h3 class="ui header">
+                <img class="ui image" src="../image/about/icon3.png">
+                <div class="content">
+                  我们的优势
+                </div>
+              </h3>
+              <p>信息公示</p>
+              <p>保真确权</p>
+              <p>市场定价</p>
+              <p>自由交割</p>
+              <p>增值运营</p>
+              <p>融资担保</p>
+              <h3 class="ui header">
+                <img class="ui image" src="../image/about/icon3.png">
+                <div class="content">
+                  我们的期待
+                </div>
+              </h3>
+              <p>加入我们</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

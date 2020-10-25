@@ -1,0 +1,20 @@
+<!--#include file="/include/head.shtml"-->
+<div class="error">
+  <div class="ui container">
+    <div class="ui text container">
+      <div class="ui grid stackabel aligned center">
+        <div class="nine wide column">
+          <img src="image/505_01.png">
+        </div>
+        <div class="seven wide column">
+          <img src="image/505_02.png">
+          <p>我也不知道发生了什么，</p>
+          <p>请您等候片刻，</p>
+          <p>或者按F5刷新网页试试，</p>
+          <p>Mac OX按Command+R</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

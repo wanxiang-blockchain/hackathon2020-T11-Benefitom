@@ -1,0 +1,50 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="userChange">
+        <div class="ui stackable inverted equal height stackable grid">
+          <!--#include file="/include/leftTree.shtml"-->
+          <div class="thirteen wide column">
+            <div class="articleInfo">
+              <h4 class="ui header">基本信息</h4>
+              <div class="ui clearing segment settingPhone">
+                <a href="/user/changePhone1.shtml" class="ui right floated header">更换</a>
+                <div class="ui left floated header">
+                  <h3 class="ui header">
+                    <img src="../image/setting_icon1.png">
+                    <div class="content">手机号码<div class="sub header">手机号是您在唐盛平台唯一的身份证明</div>
+                    </div>
+                  </h3>
+                </div>
+                <div class="ui center aligned header">已认证 188****6617</div>
+              </div>
+              <h4 class="ui header" style="margin:0;padding-top:0;">密码管理</h4>
+              <div class="ui clearing segment loginPassword">
+                <a href="/resetPassword_step1.shtml" class="ui right floated header">修改</a>
+                <div class="ui left floated header">
+                  <h3 class="ui header">
+                    <img src="../image/setting_icon1.png">
+                    <div class="content">登录密码<div class="sub header">登录系统平台时使用</div>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+              <div class="ui clearing segment dealPassword">
+                <a href="/user/resetTradePassword.shtml" class="ui right floated header">修改</a>
+                <div class="ui left floated header">
+                  <h3 class="ui header">
+                    <img src="../image/setting_icon1.png">
+                    <div class="content">交易密码<div class="sub header">投资时的保障</div>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

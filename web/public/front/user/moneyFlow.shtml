@@ -1,0 +1,102 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="full height">
+        <!--#include file="/include/leftTree.shtml"-->
+        <div class="article">
+          <div class="articleInfo">
+            <h4 class="ui header">资金流水</h4>
+            <form class="ui form stackable secondary flex-wrap menu" method="get" action="/subscribe.html">
+              <div class="item">
+                <div class="ui input">
+                  <label style="line-height:38px;">状态：</label>
+                  <select class="ui dropdown" name="state">
+                    <<option value="">全部</option>
+                    <<option value="">完成</option>
+                  </select>
+                </div>
+              </div>
+              <div class="item userRadio">
+                <div class="inline fields">
+                  <div class="field">
+                    <div class="ui radio checkbox">
+                      <input type="radio" name="date">
+                      <label>今日</label>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="ui radio checkbox">
+                      <input type="radio" name="date">
+                      <label>本月</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="ui input">
+                  <input id="d4311" class="wdate" type="text" name="beginTime" value="" onFocus='WdatePicker({"maxDate": "2020-10-01", "dateFmt": "yyyy-MM-dd"})' placeholder="开始时间">
+                </div>
+              </div>
+              <div class="item">
+                <div class="ui input">
+                  <input id="#d4312" class="wdate" type="text" name="endTime" value="" onFocus='WdatePicker({"maxDate": "2020-10-01", "dateFmt": "yyyy-MM-dd"})' placeholder="结束时间">
+                </div>
+              </div>
+              <div class="right menu">
+                <div class="item">
+                  <input type="submit" value="查询" class="ui orange button">
+                </div>
+              </div>
+            </form>
+            <table class="ui very basic celled table">
+              <tbody>
+                <tr>
+                  <td class="center aligned">发生日期</td>
+                  <td class="center aligned">类型</td>
+                  <td class="center aligned">收/支金额</td>
+                  <td class="center aligned">冻结金额</td>
+                  <td class="center aligned">可用金额</td>
+                  <td class="center aligned">状态</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">2017-02-14 17:45</td>
+                  <td class="center aligned">充值</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">￥0元</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">充值成功</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">2017-02-14 17:45</td>
+                  <td class="center aligned">充值</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">￥0元</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">充值成功</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">2017-02-14 17:45</td>
+                  <td class="center aligned">充值</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">￥0元</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">充值成功</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">2017-02-14 17:45</td>
+                  <td class="center aligned">充值</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">￥0元</td>
+                  <td class="center aligned">￥2000元</td>
+                  <td class="center aligned">充值成功</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->
