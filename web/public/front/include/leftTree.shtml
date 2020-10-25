@@ -1,0 +1,41 @@
+<div class="three wide column leftTree">
+  <div class="ui vertical inverted sticky menu">
+    <div class="item">
+      <div class="header">个人中心＞我的认购</div>
+      <div class="menu">
+        <a class="item active" href="#">
+          <i class="list layout icon"></i>
+          账户总览
+        </a>
+        <a class="item" href="/user/recharge.shtml">
+          <i class="payment icon"></i>
+          充值提现
+        </a>
+        <a class="item" href="/user/entrust.shtml">
+          <i class="hand lizard icon"></i>
+          委托管理
+        </a>
+        <a class="item" href="/user/subscribe.shtml">
+          <i class="user outline icon"></i>
+          我的认购
+        </a>
+        <a class="item" href="/user/deal.shtml">
+          <i class="legal icon"></i>
+          我的成交
+        </a>
+        <a class="item" href="/user/assets.shtml">
+          <i class="yen icon"></i>
+          我的资产
+        </a>
+        <a class="item" href="/user/moneyFlow.shtml">
+          <i class="yen icon"></i>
+          资金流水
+        </a>
+        <a class="item" href="/user/setting.shtml">
+          <i class="setting icon"></i>
+          账户设置
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

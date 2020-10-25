@@ -1,0 +1,34 @@
+<!--#include file="/include/head.shtml"-->
+<div class="orderConfirm pusher">
+  <div class="ui container">
+    <div class="ts_success">
+      <div class="ui breadcrumb">
+        <a class="section" href="/subscriber/itemsList.shtml">认购中心</a>
+        <i class="right angle icon divider"></i>
+        <a class="section" href="/subscriber/details.shtml">认购详情</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">认购成功</div>
+      </div>
+      <div class="ui text container">
+        <h2 class="ui header">
+          <img class="ui image" src="../image/success.png">
+          <div class="content">认购成功</div>
+        </h2>
+        <div class="ts_order_intro">
+          <p>项目名称 项目名称 项目名称  项目名称</p>
+          <p>认购数量：x棵</p>
+          <p>认购金额：xxxx元</p>
+          <p>认购股份：xxxx股</p>
+        </div>
+        <div class="ui middle aligned grid">
+          <div class="row">
+            <div class="center aligned column">
+              <a href="#">可去往个人中心</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

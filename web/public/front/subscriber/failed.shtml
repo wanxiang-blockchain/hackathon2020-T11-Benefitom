@@ -1,0 +1,31 @@
+<!--#include file="/include/head.shtml"-->
+<div class="orderConfirm pusher">
+  <div class="ui container">
+    <div class="ts_failed">
+      <div class="ui breadcrumb">
+        <a class="section" href="/subscriber/itemsList.shtml">认购中心</a>
+        <i class="right angle icon divider"></i>
+        <a class="section" href="/subscriber/details.shtml">认购详情</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">认购失败</div>
+      </div>
+      <div class="ui text container">
+        <h2 class="ui header">
+          <img class="ui image" src="../image/failed.png">
+          <div class="content">认购失败</div>
+        </h2>
+        <div class="ts_order_intro">
+          <p>认购失败：【认购失败原因变量】</p>
+        </div>
+        <div class="ui middle aligned grid">
+          <div class="row">
+            <div class="center aligned column">
+              <a href="#">返回上一级</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->

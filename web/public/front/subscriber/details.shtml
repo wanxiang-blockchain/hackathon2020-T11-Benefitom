@@ -1,0 +1,297 @@
+<!--#include file="/include/head.shtml"-->
+<div class="buyDetails pusher">
+  <div class="ui container">
+    <div class="ui stackable inverted grid">
+      <div class="twelve wide column">
+        <div class="ui items">
+          <div class="item">
+            <div class="image">
+              <img src="../image/details_pic1.jpg">
+            </div>
+            <div class="content">
+              <a class="header">项目名称 项目名称</a>
+              <div class="price">
+                <p><img src="../image/project_icon2.png">蜜柚树单价：2000股/棵</p>
+                <p><img src="../image/project_icon2.png">收益权单价：1元/股</p>
+              </div>
+              <div class="progressCon">
+                <div class="ui progress" data-percent="50">
+                  <div class="bar" style="transition-duration:300ms;width:50%;"></div>
+                </div>
+                <span>50%</span>
+              </div>
+              <div class="buyDetailsOther">
+                <p>抢购剩余时间：15天20分29秒</p>
+                <p>认购总份数：100000份</p>
+                <p>剩余认购份数：4000份</p>
+                <p>认购人数：20人</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="four wide column copies">
+        <form action="/subscription/confirm" method="post">
+        <p>认购原始收益份数</p>
+        <div class="ts-stock">
+          <a href="javascript:void(0);" class="tb-iconfont ts-reduce">-</a>
+          <input type="text" class="ts-text" value="1">
+          <a href="javascript:void(0);" class="tb-iconfont ts-increase">+</a>
+        </div>
+        <span class="ts-amount">确认金额：<span class="allMoney">1.5</span>元</span>
+        <span class="ts-buyBalance">当前余额：<span class="balanceMoney">2.89</span>元</span>
+        <span class="ts-needCharge">还需充值：<span class="needChargeMoney">0</span>元</span>
+        <a  href="javascript:void(0);" class="ts-LinkBuy buy_comfirm">确认认购</a>
+        <div class="field buyAgreement">
+          <div class="ui checkbox">
+            <input type="checkbox" tabindex="0" class="hidden" name="agreement" id="agreement">
+            <label>本人同意并接受以下内容<a href="/agreement.shtml">《唐盛农业资源数字化认购协议》</a></label>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    <div class="itemsAbout">
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="first">项目简介</a>
+        <a class="item" data-tab="second">认购记录</a>
+      </div>
+      <div class="ui bottom attached tab segment active" data-tab="first">
+        <div class="itemsIntro noLine">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              项目视频介绍
+            </h4>
+          </div>
+          <div id="enterprise">
+            <div class="showroom">
+              <div class="video">
+                <video id="my-video" class="video-js" controls="" preload="auto" poster="../image/listPic.jpg" data-setup='{}' style="">
+                  <source src='https://o6ss77ovh.qnssl.com/video.720' type='video/mp4'></source>
+                  <source src='https://o6ss77ovh.qnssl.com/video.m3u8' type='video/mp4'></source>
+                  <source src='https://o6ss77ovh.qnssl.com/video.web' type='video/webm'></source>
+                  <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                  </p>
+                </vide>
+                <script type="text/javascript" src="../js/video.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="itemsIntro">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              项目介绍
+            </h4>
+          </div>
+          <p>唐盛庄园--蜜柚生态庄园位于福建省漳州市南靖县书洋镇，是著名的土楼之乡，全镇共有土楼6000多座，千姿百态、气势非凡。在通往唐盛庄园 -- 土楼生态庄园的路上，随处可见的土楼景观形成了一道美妙绝伦的风景线。庄园与土楼相望，优美的自然景观和丰富的人文资源，日益焕发出迷人风采。唐盛庄园-土楼生态庄园现拥有土地1000余亩，蜜柚树类12000余棵，其他野生动植物资源丰富。唐盛庄园在当地政府的大力支持下，欲将土楼生态庄园打造成集农业生产、柚子产品加工、特色生态旅游为一体的大型自然生态庄园。</p>
+          <p>为响应国家号召，唐盛庄园将利用先进的计算机软件技术，将土楼生态庄园内果树及其他农业资源数字化并实现自由流通转让，以盘活农业资源、推动小城镇建设，打造国内农业资源数字化流转平台，创新现代农业数字化经营模式，实现农民增收。</p>
+        </div>
+        <div class="itemsIntro">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              企业简介
+            </h4>
+          </div>
+          <p>唐盛庄园（北京）资产管理有限公司（以下简称“公司”）是一家高科技电子商务平台企业。公司管理团队有丰富的互联网、农业及品牌推广经验。依托于母公司强大的资金及渠道资源，在水果生鲜等农产品领域，通过互联网及电子商务等手段在更大范围、更高效率上配置农产品的流通，从而推动农业产业转型升级，打造特色农产品品牌，实现农业产业创新驱动发展。唐盛庄园建立了高于行业标准的产品规范，让生鲜 “非标准化产品”变得标准化可衡量，从最初的源头开始确保品质优秀.公司在全国拥有多家合作农业生产基地，同时公司建立了严格的质量监控及用户服务体系，力求和合作伙伴一起共同为我国的农业产业化做出应有的贡献。</p>
+        </div>
+        <div class="itemsIntro">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              产品特色及优势
+            </h4>
+          </div>
+          <p>唐盛庄园农业资源流转平台通过互联网及电子商务等手段在更大范围、更高效率上配置农产品的流通，把农业资产用互联网+技术的形式给量化出来。从而推动农业产业转型升级，打造特色农产品品牌，实现农业产业创新驱动发展。唐盛庄园现以土楼生态庄园“蜜柚园”园区内蜜柚树资产的“综合收益权”，作为农业资源数字化标的进行价值评估，用户可按份购买收益权。</p>
+          <p>所谓的“综合收益权”是指：</p>
+          <p>1、用户因购买而享有的，由蜜柚树流转及蜜柚产品售卖及深加工所带来的所有收益。</p>
+          <p>2、用户购买的“综合收益权”可以唐盛农业资源流转平台进行实时交易。</p>
+        </div>
+        <div class="itemsIntro">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              产品展示图片
+            </h4>
+          </div>
+          <div class="detailsPictures">
+            <img class="ui fluid image" src="../image/picList1.jpg">
+            <p>蜜柚生态庄园全景图</p>
+            <img class="ui fluid image" src="../image/picList2.jpg">
+            <p>茁壮成长的蜜柚树</p>
+            <div class="ui two stackable doubling cards">
+              <div class="ui card">
+                <div class="image">
+                  <img src="../image/picList5.jpg">
+                </div>
+              </div>
+              <div class="ui card">
+                <div class="image">
+                  <img src="../image/picList4.jpg">
+                </div>
+              </div>
+            </div>
+            <p>维护蜜柚树</p>
+            <img class="ui fluid image" src="../image/picList7.jpg">
+            <p>《中华人民共和国不动产权证书》</p>
+            <img class="ui fluid image" src="../image/picList8.jpg">
+            <p>《不动产权证书展示》</p>
+            <img class="ui fluid image" src="../image/picList9.jpg">
+            <p>《不动产权证书》内容</p>
+            <img class="ui fluid image" src="../image/picList11.jpg">
+            <p>《不动产权证书》内容</p>
+            <img class="ui fluid image" src="../image/picList12.jpg">
+            <p>《不动产权证书》内容</p>
+            <div class="ui center aligned segment">
+              <a class="ui button buyRight" href="javascript:;">立即认购</a>
+            </div>
+          </div>
+
+        </div>
+        <!-- <div class="itemsIntro">
+          <div class="introTitle">
+            <h4 class="ui horizontal divider header">
+              <i class="play icon"></i>
+              产品定位
+            </h4>
+          </div>
+          <p>唐贷金融超市隶属于唐贷金融服务（深圳）股份有限公司，是经深圳市工商行政管理局批准设立的一家综合性现代化金融服务平台。经营范围：金融信息咨询。提供金融中介服务。接受金融机构委托从事金融外包服务；投资管理、投资咨询；受托管理股权投资基金；企业并购重组策划；企业管理咨询；企业发展战略咨询；金融软件开发、技术、技术咨询、技术服务；初级农产品的销售，公司业务覆盖全国，在北京、山东、河南、重庆、山西、吉林、深圳等多省市设立运营中心。</p>
+        </div> -->
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="second">
+        <table class="ui basic structured table">
+          <thead>
+            <tr>
+              <th class="center aligned">订单编号</th>
+              <th class="center aligned">认购者</th>
+              <th class="center aligned">订购金额</th>
+              <th class="center aligned">认购原始收益权份数(10)</th>
+              <th class="center aligned">认购时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="center aligned">010</td>
+              <td class="center aligned sellTable">用户名10变量</td>
+              <td class="center aligned">￥2000</td>
+              <td class="center aligned">2000</td>
+              <td class="center aligned">2017-02-14 13:42</td>
+            </tr>
+            <tr>
+              <td class="center aligned">010</td>
+              <td class="center aligned sellTable">用户名9变量</td>
+              <td class="center aligned">￥2000</td>
+              <td class="center aligned">2000</td>
+              <td class="center aligned">2017-02-14 13:42</td>
+            </tr>
+            <tr>
+              <td class="center aligned">010</td>
+              <td class="center aligned sellTable">用户名8变量</td>
+              <td class="center aligned">￥2000</td>
+              <td class="center aligned">2000</td>
+              <td class="center aligned">2017-02-14 13:42</td>
+            </tr>
+            <tr>
+              <td class="center aligned">010</td>
+              <td class="center aligned sellTable">用户名7变量</td>
+              <td class="center aligned">￥2000</td>
+              <td class="center aligned">2000</td>
+              <td class="center aligned">2017-02-14 13:42</td>
+            </tr>
+            <tr>
+              <td class="center aligned">010</td>
+              <td class="center aligned sellTable">用户名6变量</td>
+              <td class="center aligned">￥2000</td>
+              <td class="center aligned">2000</td>
+              <td class="center aligned">2017-02-14 13:42</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 充值弹窗 -->
+<div class="ui small modal goChargeModal buyDetailsModalCom">
+   <div class="content">
+     <form class="ui form" id="rechangeFormModal" action="">
+       <div class="field">
+         <input name="rechangeAmount" id="rechangeAmount" type="text" placeholder="请输入您要充值的金额">
+       </div>
+       <div class="field" style="margin-bottom:50px;">
+         <i class="selected radio icon"></i>
+         支付宝支付
+       </div>
+       <input type="submit" class="ui orange submit button right formBtn" value='充值'>
+     </form>
+   </div>
+   <div class="actions">
+     <div class="ui negative button">取消</div>
+   </div>
+ </div>
+<!-- 输入交易密码弹窗 -->
+ <div class="ui small modal buyPasswordModal buyDetailsModalCom">
+    <div class="content">
+      <form class="ui form" id="tradePasswordModal" action="">
+        <div class="field">
+          <input name="tradePassword" id="tradePassword" type="password" placeholder="请输入交易密码">
+        </div>
+        <div class="field">
+          <p class="forgetTradePassword"><a href="#">忘记交易密码？</a></p>
+          <p>认购金额：xxxx元</p>
+          <p>认购份数：xxxx份</p>
+        </div>
+        <input type="submit" class="ui orange submit button right formBtn" value='确认认购'>
+      </form>
+    </div>
+    <div class="actions">
+      <div class="ui negative button">取消</div>
+    </div>
+  </div>
+<!--#include file="/include/foot.shtml"-->
+<script type="text/javascript">
+  var balance=parseFloat($(".balanceMoney").text());
+  var ts_text=$(".ts-text");
+  var m=$(".allMoney").text();
+  var allMoney=$(".allMoney");
+  function updataMoney(){
+    var inputVal=ts_text.val();
+    var total=inputVal*m;
+    allMoney.text(total);
+    if(ts_text.val()<=0){
+      allMoney.text(m);
+    }
+    if(parseFloat(allMoney.text())>balance){
+      $(".needChargeMoney").text((parseFloat(allMoney.text())-balance).toFixed(2));
+    }else{
+      $(".needChargeMoney").text(0);
+    }
+  }
+  $(".ts-reduce").click(function(){
+    ts_text.val(parseInt(ts_text.val())-1);
+    if(ts_text.val()<=0){
+      ts_text.val(parseInt(ts_text.val())+1);
+    }
+    updataMoney();
+  });
+  $(".ts-increase").click(function(){
+    ts_text.val(parseInt(ts_text.val())+1);
+    updataMoney();
+  })
+  $(".ts-text").keyup(function(){
+    var that=$(this);
+    if(/[^\d]/.test(that.val())){
+      var amount=that.val().replace(/[^\d]/g,'');
+      $(this).val(amount);
+    }
+    updataMoney();
+  });
+  $(".buyRight").click(function(){
+    $("html,body").animate({scrollTop:0},500);
+  })
+</script>

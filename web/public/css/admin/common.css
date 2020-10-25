@@ -1,0 +1,12 @@
+.page-container .page-content .page-content-wrap {
+    margin: 20px;
+    width: 97% !important;
+}
+.btn-operator{
+    padding: 3px 7px !important;
+}
+.btn-operator > i{
+    position: relative;
+    left: 3px;
+    top:1px;
+}

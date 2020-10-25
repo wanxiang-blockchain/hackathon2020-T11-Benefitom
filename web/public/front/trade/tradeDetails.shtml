@@ -1,0 +1,351 @@
+<!--#include file="/include/head.shtml"-->
+<div class="pusher tradeDetails">
+  <div class="ui container">
+    <div class="ui breadcrumb">
+      <a class="section href=#">交易中心</a>
+      <i class="right angle icon divider"></i>
+      <div class="active section">项目名称 详情</div>
+    </div>
+    <div class="tradeDetailsProject">
+      <div class="ui items">
+        <div class="item">
+          <div class="image">
+            <img src="../image/tradeDetail_pic.jpg">
+          </div>
+          <div class="content">
+            <a class="header">项目名称 项目名称 项目名称</a>
+            <div class="ui equal width stackable internally celled grid">
+              <div class="aligned row">
+                <div class="column">
+                  <p>最新：￥3000.00</p>
+                  <p>涨跌：0.200</p>
+                  <p>总手：1354</p>
+                  <p>总额：20.053万</p>
+                  <p>24H成交额/总成交额：800/900</p>
+                </div>
+                <div class="column">
+                  <p>涨幅：0.14%</p>
+                  <p>开盘：147.900</p>
+                  <p>现手2</p>
+                  <p>换手：4.45%</p>
+                  <p>最高价/最低价：￥6830/6540</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="userEntrust">
+      <div class="ui middle stackable grid container">
+        <div class="row">
+          <div class="eleven wide column paddingTop">
+            <img src="../image/graphs.jpg">
+            <div class="ui equal width center aligned padded grid dataGraphs">
+              <div class="row">
+                <a href="javascript:;" class="column active">时线</a>
+                <a href="javascript:;" class="column">日线</a>
+                <a href="javascript:;" class="column">月线</a>
+                <a href="javascript:;" class="column">年线</a>
+              </div>
+            </div>
+          </div>
+          <div class="five wide column">
+            <div class="userEntrustTable entrustInfo">
+              <h4 class="ui header">
+                委托信息
+              </h4>
+              <table class="ui basic structured table">
+                <tbody>
+                  <tr>
+                    <td class="center aligned" style="border:1px solid #cba078;">委比：-62.09%</td>
+                    <td class="center aligned" style="border:1px solid #cba078;">委差：-110</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="ui basic structured table">
+                <thead>
+                  <tr>
+                    <th class="center aligned">买卖</th>
+                    <th class="center aligned">价格</th>
+                    <th class="center aligned">委托数量</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="center aligned">买</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">卖</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">卖</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td class="center aligned">买</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">卖</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">卖</td>
+                    <td class="center aligned">10</td>
+                    <td class="center aligned">10</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="ui basic structured table">
+                <tbody>
+                  <tr>
+                    <td class="center aligned" style="border:1px solid #cba078;">涨停：162.980</td>
+                    <td class="center aligned" style="border:1px solid #cba078;">跌停：133.110</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newDeal">
+      <div class="ui middle stackable grid">
+        <div class="row">
+          <div class="five wide column">
+            <div class="buySell">
+              <div class="ui tabular menu">
+                <div class="item active" data-tab="tab-buy">买入</div>
+                <div class="item" data-tab="tab-sell">卖出</div>
+              </div>
+              <div class="ui tab active" data-tab="tab-buy">
+                <div class="buying">
+                  <p>最佳买价：0.8元</p>
+                  <form class="ui form">
+                    <div class="field">
+                      <label>买入价格：</label>
+                      <input type="text" name="buyPrice" class="buyPrice">
+                    </div>
+                    <div class="field">
+                      <label>买入数量：</label>
+                      <input type="text" name="buyAmount" class="buyAmount">
+                    </div>
+                    <div class="field">
+                      <label>交易密码：</label>
+                      <input type="password" name="tradePassword">
+                    </div>
+                    <div class="field">
+                      <label>交易金额：</label>
+                      <span><span class="buyTotal">0</span>元</span>
+                      <a href="#">忘记密码</a>
+                    </div>
+                     <button class="ui button" type="submit">买入</button>
+                  </form>
+                </div>
+              </div>
+              <div class="ui tab" data-tab="tab-sell">
+                <div class="selling">
+                  <p>最佳卖价：0.8元</p>
+                  <form class="ui form">
+                    <div class="field">
+                      <label>卖出价格：</label>
+                      <input type="text" name="sellPrice" class="sellPrice">
+                    </div>
+                    <div class="field">
+                      <label>卖出数量：</label>
+                      <input type="text" name="sellAmount" class="sellAmount">
+                    </div>
+                    <div class="field">
+                      <label>交易密码：</label>
+                      <input type="password" name="tradePassword">
+                    </div>
+                    <div class="field">
+                      <label>交易金额：</label>
+                      <span><span class="sellTotal">0</span>元</span>
+                      <a href="#">忘记密码</a>
+                    </div>
+                     <button class="ui button" type="submit">买入</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five wide column entrust_borderBox">
+            <div class="userEntrustTable myEntrust">
+              <h4 class="ui header">
+                我的委托
+                <a class="" href="#">全部委托</a>
+              </h4>
+              <table class="ui basic structured table">
+                <thead>
+                  <tr>
+                    <th class="center aligned">类型</th>
+                    <th class="center aligned">委托价格</th>
+                    <th class="center aligned">委托数量</th>
+                    <th class="center aligned">操作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="center aligned">买</td>
+                    <td class="center aligned">0.52</td>
+                    <td class="center aligned">100</td>
+                    <td class="center aligned"><button class="ui inverted brown button">撤销</button></td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">买</td>
+                    <td class="center aligned">0.52</td>
+                    <td class="center aligned">100</td>
+                    <td class="center aligned"><button class="ui inverted brown button">撤销</button></td>
+                  </tr>
+                  <tr>
+                    <td class="center aligned">买</td>
+                    <td class="center aligned">0.52</td>
+                    <td class="center aligned">100</td>
+                    <td class="center aligned"><button class="ui inverted brown button">撤销</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="six wide column table_borderBox">
+            <h4 class="ui header">最新成交</h4>
+            <table class="ui basic structured table">
+              <thead>
+                <tr>
+                  <th class="center aligned">成交时间</th>
+                  <th class="center aligned">类型</th>
+                  <th class="center aligned">成交价格</th>
+                  <th class="center aligned">成交量</th>
+                  <th class="center aligned">总计</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="center aligned">11:30:00</td>
+                  <td class="center aligned sellTable">卖出</td>
+                  <td class="center aligned">10<i class="icon long arrow up"></i></td>
+                  <td class="center aligned">10</td>
+                  <td class="center aligned">10</td>
+                </tr>
+                <tr>
+                  <td class="center aligned">11:30:00</td>
+                  <td class="center aligned buyTable">买入</td>
+                  <td class="center aligned">10<i class="icon long arrow down"></i></td>
+                  <td class="center aligned">10</td>
+                  <td class="center aligned">10</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 确认买入弹窗 -->
+<div class="ui small modal confirmBuy confirmCommon">
+   <div class="header">
+     确认买入
+   </div>
+   <div class="content">
+     <p>购入收益权</p>
+     <p>需付金额<span>30000元</span></p>
+   </div>
+   <div class="actions">
+     <div class="ui negative button">取消</div>
+     <div class="ui positive right labeled icon button">确认</div>
+   </div>
+ </div>
+ <!-- 确认卖出弹窗 -->
+ <div class="ui small modal confirmSell confirmCommon">
+    <div class="header">
+      确认卖出
+    </div>
+    <div class="content">
+      <p>卖出数量：40000份</p>
+      <p>卖出价格：<span>30000元</span></p>
+    </div>
+    <div class="actions">
+      <div class="ui negative button">取消</div>
+      <div class="ui positive right labeled icon button">确认</div>
+    </div>
+  </div>
+  <!-- 余额不足弹窗 -->
+  <div class="ui small modal moneyNotEnough confirmCommon">
+     <div class="header">
+       余额不足
+     </div>
+     <div class="content">
+       <p>购入收益权：50000份</p>
+       <p>需付金额：60000元</p>
+       <p>剩余金额：40000元</p>
+       <p>还差金额：<span>20000元</span></p>
+     </div>
+     <div class="actions">
+       <div class="ui negative button">取消</div>
+       <a href="/user/recharge.shtml" class="ui positive right labeled icon button">立即充值</a>
+     </div>
+   </div>
+<!--#include file="/include/foot.shtml"-->
+<script type="text/javascript">
+$(".confirmSell.modal").modal('show');
+$(document).ready(function(){
+  $(".buyAmount").val("");
+})
+
+function updataMoney(){
+  var buyMoney=$(".buyPrice").val();
+  var buyAmount=$(".buyAmount").val();
+  var total=buyMoney*buyAmount;
+  $(".buyTotal").text(total);
+}
+function updataSellMoney(){
+  var sellMoney=$(".sellPrice").val();
+  var sellAmount=$(".sellAmount").val();
+  var total=sellMoney*sellAmount;
+  $(".sellTotal").text(total);
+}
+$(".buyPrice").keyup(function(){
+  var that=$(this);
+  if(/[^\d.]/.test(that.val())){
+    var amount=that.val().replace(/[^\d]/g,'');
+    $(this).val(amount);
+  }
+  updataMoney();
+})
+$(".buyAmount").keyup(function(){
+  var that=$(this);
+  if(/[^\d.]/.test(that.val())){
+    var amount=that.val().replace(/[^\d]/g,'');
+    $(this).val(amount);
+  }
+  updataMoney();
+})
+$(".sellPrice").keyup(function(){
+  var that=$(this);
+  if(/[^\d.]/.test(that.val())){
+    var amount=that.val().replace(/[^\d]/g,'');
+    $(this).val(amount);
+  }
+  updataSellMoney();
+})
+$(".sellAmount").keyup(function(){
+  var that=$(this);
+  if(/[^\d.]/.test(that.val())){
+    var amount=that.val().replace(/[^\d]/g,'');
+    $(this).val(amount);
+  }
+  updataSellMoney();
+})
+</script>

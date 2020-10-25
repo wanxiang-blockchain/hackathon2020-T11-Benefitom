@@ -1,0 +1,59 @@
+<div class="ui inverted vertical footer segment">
+  <div class="service">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted grid">
+        <div class="four wide column">
+           <img src="../image/footLogo.png">
+        </div>
+        <div class="nine wide column">
+          <div class="ui grid">
+            <div class="four wide column">
+              <a href="#">关于我们</a>
+            </div>
+            <div class="four wide column">
+              <a href="#">新手引导</a>
+            </div>
+            <div class="four wide column">
+              <a href="#">认购中心</a>
+            </div>
+            <div class="four wide column">
+              <a href="#">交易中心</a>
+            </div>
+          </div>
+          <div class="footAddress">
+            <h4 class="ui header">
+              <i class="mail icon"></i>
+              企业邮箱：inf@tangartbank.com
+            </h4>
+            <h4 class="ui header">
+              <i class="marker icon"></i>
+              北京市朝阳区太阳宫南街29号
+            </h4>
+          </div>
+        </div>
+        <div class="three wide column">
+          <img src="../image/footService.png">
+          <h4>客服电话<br/>010-51301279</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="center aligned ui container">
+      <p>
+        <span>Copyright&copy;2016-2017 绍德堂 All Right Reserved.</span>
+        <span>京ICP备XXXXXXXXXXX号</span>
+      </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery-getui.js"></script>
+<script type="text/javascript" src="/js/semantic.min.js"></script>
+<script type="text/javascript" src="/js/WdatePicker.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.js"></script>
+<script type="text/javascript" src="/js/videojs-ie8.min.js"></script>
+<script type="text/javascript" src="/js/messages_cn.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/form.js"></script>

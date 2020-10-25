@@ -1,0 +1,83 @@
+<!--#include file="/include/head.shtml"-->
+<div class="userContainer pusher">
+  <div class="ui container">
+    <div class="pusher">
+      <div class="userChange">
+        <div class="ui stackable inverted equal height stackable grid">
+<!--#include file="/include/leftTree.shtml"-->
+          <div class="thirteen wide column userIndex">
+            <div class="ui stackable inverted divided grid">
+              <div class="seven wide column">
+                <div class="ui equal width internally grid changeNoHead">
+                  <div class="center aligned row">
+                    <div class="column">
+                      <p>您好</p>
+                      <p>183****5251</p>
+                    </div>
+                    <div class="column">
+                      <h3>4000.00元</h3>
+                      <p class="ui header"><img class="ui image" src="../image/total_icon.png">账户总资产</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="six wide column">
+                <div class="balance">
+                  <h3>2000.00</h3>
+                  <h6 class="ui header userBalance">
+                    <img class="ui image" src="../image/balance_icon.png">
+                    <div class="content">账户余额</div>
+                  </h6>
+                </div>
+              </div>
+              <div class="three wide column">
+                <div class="withdrawal">
+                  <a href="#">充值</a>
+                  <a href="#">提现</a>
+                </div>
+              </div>
+            </div>
+            <div class="ui header">
+              <i class="list layout icon"></i>
+              <div class="content">账户总览</div>
+            </div>
+            <div class="ui relaxed divided list">
+              <div class="item">
+                <div class="content">
+                  <div class="description">账户总额：4000.00元</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="/user/subscribe.shtml" class="ui button">查看详情</a>
+                </div>
+                <div class="content">
+                  <div class="description">持有收益权份数：4000.00份</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="/user/entrust.shtml" class="ui button">查看详情</a>
+                </div>
+                <div class="content">
+                  <div class="description">委托卖出收益权：4000.00份</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="right floated content">
+                  <a href="/user/entrust.shtml" class="ui button">查看详情</a>
+                </div>
+                <div class="content">
+                  <div class="description">委托买入收益权：4000.00份</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--#include file="/include/foot.shtml"-->
